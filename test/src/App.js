@@ -9,7 +9,6 @@ class App extends Component {
     return(
       <div className="wrapper">
         <div className="increment-section">
-          <h1>Hello</h1>
           <Increment />
         </div>
 

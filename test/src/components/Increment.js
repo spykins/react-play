@@ -5,7 +5,8 @@ class Increment extends Component {
     render() {
         return(
             <div>
-                hello 2
+                <h1>Count here</h1>
+                <button>Click Me</button>
             </div>
         )
     }
