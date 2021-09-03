@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import reactDOM from "react-dom";
 import Increment from "./components/Increment";
+import Login from "./components/Login";
 import './App.css';
 
 
@@ -12,7 +13,9 @@ class App extends Component {
           <Increment />
         </div>
 
-        <div className="login-section"></div>
+        <div className="login-section">
+          <Login />
+        </div>
 
         <div className="form-section"></div>
 
