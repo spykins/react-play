@@ -22,7 +22,9 @@ class Login extends Component {
         let word = this.state.isLoggedIn ? "Logged In" : "Logged Out";
         return(
             <div>
-                <button onClick={this.handleClick}>{word}</button>
+                <button onClick={this.handleClick} title="dummyButton">
+                    {word}
+                </button>
             </div>
         )
     }
