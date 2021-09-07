@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import reactDOM from "react-dom";
 import Increment from "./components/Increment";
-import Login from "./components/Login";
+import Login from "./components/Login/Login";
 import './App.css';
 
 
